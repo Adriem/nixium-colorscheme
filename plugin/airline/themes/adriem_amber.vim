@@ -33,15 +33,15 @@ let s:status_bg   = { 'gui': s:statusline_colors[1], 'cterm': s:statusline_color
 let s:statusnc_bg = { 'gui': s:statuslinenc_colors[1], 'cterm': s:statuslinenc_colors[3] }
 let s:statusnc_fg = { 'gui': s:statuslinenc_colors[0], 'cterm': s:statuslinenc_colors[2] }
 " Saturated
-" let s:normal_fg   = { 'gui': '#888888', 'cterm': 240 }
-" let s:insert_fg   = { 'gui': '#87af5f', 'cterm': 241 }
-" let s:replace_fg  = { 'gui': '#d75f5f', 'cterm': 241 }
-" let s:visual_fg   = { 'gui': '#5f87af', 'cterm': 241 }
+" let s:normal_fg   = { 'gui': '#808080', 'cterm': 244 }
+" let s:insert_fg   = { 'gui': '#87af5f', 'cterm': 107 }
+" let s:replace_fg  = { 'gui': '#d75f5f', 'cterm': 167 }
+" let s:visual_fg   = { 'gui': '#5f87af', 'cterm':  67 }
 " Desaturated
-let s:normal_fg   = { 'gui': '#4e4e4e', 'cterm': 240 }
-let s:insert_fg   = { 'gui': '#87875f', 'cterm': 241 }
-let s:replace_fg  = { 'gui': '#af5f5f', 'cterm': 241 }
-let s:visual_fg   = { 'gui': visual_colors[1], 'cterm': visual_colors[3] }
+let s:normal_fg   = { 'gui': '#4e4e4e', 'cterm': 239 }
+let s:insert_fg   = { 'gui': '#87875f', 'cterm': 101 }
+let s:replace_fg  = { 'gui': '#af5f5f', 'cterm': 131 }
+let s:visual_fg   = { 'gui': s:visual_colors[1], 'cterm': s:visual_colors[3] }
 
 
 function! InverseColors(colors)
@@ -100,7 +100,7 @@ let g:airline#themes#adriem_amber#palette.inactive_modified = { 'airline_c': [ '
 " will be red instead of the section's foreground color. You can also have
 " multiple parts with accents within a section.
 let g:airline#themes#adriem_amber#palette.accents = {
-      \ 'red': [ '#5f0000', '', 88, '', 'bold' ]
+      \ 'red': [ '#5f0000', '', 52, '', 'bold' ]
       \ }
 
 

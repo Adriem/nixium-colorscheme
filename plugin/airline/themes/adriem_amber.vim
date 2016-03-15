@@ -29,16 +29,19 @@ let s:statuslinenc_colors = airline#themes#get_highlight('StatusLineNC')
 let s:visual_colors = airline#themes#get_highlight('Visual')
 
 " Theme colors
-let s:status_bg   = { 'gui': s:statusline_colors[1], 'cterm': s:statusline_colors[3] }
-let s:statusnc_bg = { 'gui': s:statuslinenc_colors[1], 'cterm': s:statuslinenc_colors[3] }
-let s:statusnc_fg = { 'gui': s:statuslinenc_colors[0], 'cterm': s:statuslinenc_colors[2] }
+" let s:status_bg   = { 'gui': s:statusline_colors[1], 'cterm': s:statusline_colors[3] }
+" let s:statusnc_bg = { 'gui': s:statuslinenc_colors[1], 'cterm': s:statuslinenc_colors[3] }
+" let s:statusnc_fg = { 'gui': s:statuslinenc_colors[0], 'cterm': s:statuslinenc_colors[2] }
+let s:status_bg   = { 'gui': s:statusline_colors[1], 'cterm': s:statusline_colors[2] }
+let s:statusnc_bg = { 'gui': s:statuslinenc_colors[1], 'cterm': s:statuslinenc_colors[2] }
+let s:statusnc_fg = { 'gui': s:statuslinenc_colors[0], 'cterm': s:statuslinenc_colors[3] }
 " Saturated
 " let s:normal_fg   = { 'gui': '#808080', 'cterm': 244 }
 " let s:insert_fg   = { 'gui': '#87af5f', 'cterm': 107 }
 " let s:replace_fg  = { 'gui': '#d75f5f', 'cterm': 167 }
 " let s:visual_fg   = { 'gui': '#5f87af', 'cterm':  67 }
 " Desaturated
-let s:normal_fg   = { 'gui': '#4e4e4e', 'cterm': 239 }
+let s:normal_fg   = { 'gui': '#585858', 'cterm': 240 }
 let s:insert_fg   = { 'gui': '#87875f', 'cterm': 101 }
 let s:replace_fg  = { 'gui': '#af5f5f', 'cterm': 131 }
 let s:visual_fg   = { 'gui': s:visual_colors[1], 'cterm': s:visual_colors[3] }
